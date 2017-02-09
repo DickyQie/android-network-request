@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+             <ImageView
+                android:id="@+id/imgimg"
+                android:layout_width="wrap_content"
+                android:layout_height="88dp" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnUtil1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Toast" />
+
+                <Button
+                    android:id="@+id/btnUtil2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="image" />
+
+                <Button
+                    android:id="@+id/btnUtil3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="get1" />
+                 <Button
+                    android:id="@+id/btnUtil4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="get2" />
+
+                <Button
+                    android:id="@+id/btnUtil5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="post1" />
+                 <Button
+                    android:id="@+id/btnUtil6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DB数据库" />
+                
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/btnUtilText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+           
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
