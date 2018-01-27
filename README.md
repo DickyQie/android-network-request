@@ -1,5 +1,5 @@
-# xUtils框架的使用 
-<h2>&nbsp; &nbsp;xUtils简介</h2> 
+### xUtils框架的使用 
+<h3>&nbsp; &nbsp;xUtils简介</h3> 
 <ul> 
  <li>xUtils 包含了很多实用的android工具，xUtils 源于Afinal框架，对Afinal进行了大量重构，使得xUtils支持大文件上传，更全面的http请求协议支持，拥有更加灵活的ORM。</li> 
  <li>xUitls 最低兼容android 2.2 (api level 8)。</li> 
@@ -14,17 +14,17 @@
   </ol> </li> 
 </ul> 
 <span id="OSC_h2_2"></span>
-<h2>xUtils主要有四大模块</h2> 
+<h3>xUtils主要有四大模块</h3> 
 <p>&nbsp;</p> 
 <span id="OSC_h3_3"></span>
-<h3><strong>ViewUtils模块</strong></h3> 
+<h5><strong>ViewUtils模块</strong></h5> 
 <ul> 
  <li>&nbsp;android中的ioc框架，完全注解方式就可以进行UI，资源和事件绑定；</li> 
  <li>&nbsp;新的事件绑定方式，使用混淆工具混淆后仍可正常工作；</li> 
  <li>&nbsp;目前支持常用的20种事件绑定，参见ViewCommonEventListener类和包com.lidroid.xutils.view.annotation.event。</li> 
 </ul> 
 <span id="OSC_h3_4"></span>
-<h3><strong>BitmapUtils模块</strong></h3> 
+<h5><strong>BitmapUtils模块</strong></h5> 
 <ul> 
  <li>加载bitmap的时候无需考虑bitmap加载过程中出现的oom和android容器快速滑动时候出现的图片错位等现象；</li> 
  <li>&nbsp;支持加载网络图片和本地图片；</li> 
@@ -32,7 +32,7 @@
  <li>&nbsp;可配置线程加载线程数量，缓存大小，缓存路径，加载显示动画等...</li> 
 </ul> 
 <span id="OSC_h3_5"></span>
-<h3>&nbsp;HttpUtils模块</h3> 
+<h5>&nbsp;HttpUtils模块</h5> 
 <ul> 
  <li>&nbsp;支持同步，异步方式的请求；</li> 
  <li>&nbsp;支持大文件上传，上传大文件不会oom；</li> 
@@ -41,7 +41,7 @@
  <li>&nbsp;返回文本内容的请求(默认只启用了GET请求)支持缓存，可设置默认过期时间和针对当前请求的过期时间。</li> 
 </ul> 
 <span id="OSC_h3_6"></span>
-<h3>&nbsp;DbUtils模块</h3> 
+<h5>&nbsp;DbUtils模块</h5> 
 <ul> 
  <li>&nbsp;android中的orm框架，一行代码就可以进行增删改查；</li> 
  <li>&nbsp;支持事务，默认关闭；</li> 
