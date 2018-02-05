@@ -1,7 +1,7 @@
 #### 网络请求框架----AsyncHttpClient的get,post和图片上传服务器
 
 <p>&nbsp;async-http-client库是一个基于回调函数的Http异步通信客户端Android组件，是在Apache的HttpClient库的基础上开发构建而成的。</p> 
-<p>Eclipse使用：导入android-async-http-1.4.4.jar包&nbsp;<a href="http://download.csdn.net/detail/dickyqie/9662215" rel="nofollow">http://download.csdn.net/detail/dickyqie/9662215</a></p> 
+<p>Eclipse使用：导入a href="http://download.csdn.net/detail/dickyqie/9662215" rel="nofollow">android-async-http-1.4.4.jar</a>包&nbsp;点击下载</p> 
 <p>AndroidStudio: gradle中引入&nbsp;<span style="color:#B22222">compile&nbsp;'com.loopj.android:android-async-http:1.4.8'</span></p> 
 <span id="OSC_h3_1"></span>
 <h5><strong>功能特色</h5> 
